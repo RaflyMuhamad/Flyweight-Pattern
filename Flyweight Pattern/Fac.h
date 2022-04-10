@@ -7,5 +7,5 @@ class Factory
 {
 public:
 	vector<Object> listOf;
-	Object* getObject(string type);
+	Object* getObject(string tipe);
 };
