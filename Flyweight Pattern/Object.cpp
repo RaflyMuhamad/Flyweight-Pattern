@@ -36,11 +36,11 @@ void Object::make()
 		<< " ]";
 	if (this->getStatus())
 	{
-		cout << "is Enabled";
+		cout << " is Enabled";
 	}
 	else
 	{
-		cout << "is Disabled";
+		cout << " is Disabled";
 	}
 	cout << endl;
 }
@@ -48,6 +48,12 @@ void Object::make()
 void Object::use()
 {
 	 status = true;
+}
+
+void Object::setSize(int x, int y)
+{
+	size[0].size = x;
+	size[0].size = y;
 }
 
 void Object::setStatus(bool y)
@@ -69,3 +75,4 @@ int Object::getCoord()
 {
 	return coord;
 }
+

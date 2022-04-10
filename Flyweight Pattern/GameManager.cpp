@@ -29,7 +29,7 @@ void GameManager::useObject()
 
 	array[i].use();
 	cout << endl;
-	cout << "Object Typed " << array[i].getTipe() << " at " << i << "is used";
+	cout << "Object Typed " << array[i].getTipe() << " at " << i << " is used";
 }
 
 void GameManager::printVectorsize()
